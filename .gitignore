@@ -107,3 +107,9 @@ dist
 build-pre/
 
 .env
+.env.dev
+.npmrc
+.nvmrc
+.env.dev
+simple-api-connector
+.env.prod

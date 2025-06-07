@@ -1,0 +1,2 @@
+# README.md 파일은 merge 시 현재 브랜치의 버전을 유지
+README.md merge=ours

@@ -14,14 +14,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mistralai/mistralai": "^1.5.1",
     "@qillie/wheel-common": "0.0.87",
     "@qillie/wheel-micro-service": "0.0.130",
+    "ansi-colors": "^4.1.3",
     "axios": "^0.26.1",
     "bcrypt": "^5.1.1",
     "cheerio": "^1.0.0",
+    "cli-progress": "^3.12.0",
     "dotenv": "^16.3.1",
     "jimp": "^0.22.12",
     "moment": "^2.29.3",
+    "node-cron": "^3.0.3",
     "puppeteer": "^23.6.0",
     "qs": "^6.13.0",
     "querystring": "^0.2.1",
@@ -29,16 +33,20 @@
     "selenium-webdriver": "^4.20.0",
     "sequelize": "^6.35.2",
     "sequelize-typescript": "^2.1.6",
-    "sharp": "^0.30.0",
+    "sharp": "^0.30.7",
     "ts-node-dev": "2.0.0",
     "typescript": "^4.4.3",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/cheerio": "^0.22.35",
+    "@types/cli-progress": "^3.11.6",
+    "@types/node-cron": "^3.0.11",
     "@types/node-schedule": "^2.1.0",
     "@types/sequelize": "^4.28.20",
+    "@types/sharp": "^0.31.1",
     "@types/uuid": "^10.0.0",
     "ts-morph": "^21.0.1"
   }
